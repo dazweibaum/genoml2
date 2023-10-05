@@ -121,6 +121,11 @@ __DEPENDENCIES = {
             "binary": "plink",
             "version_args": ["--version"],
             "url": "http://s3.amazonaws.com/plink1-assets/plink_linux_x86_64_20200219.zip"
+        },
+        "Windows": {
+            "binary": "plink.exe",
+            "version_args": ["--version"],
+            "url": "https://s3.amazonaws.com/plink1-assets/plink_win64_20230116.zip"
         }
     },
 }
