@@ -18,8 +18,8 @@ import setuptools
 with open('requirements.txt') as file:
     requires = [line.strip() for line in file if not line.startswith('#')]
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+#with open("README.md", "r") as fh:
+#    long_description = fh.read()
 
 setuptools.setup(
     name="genoml2",
@@ -28,8 +28,8 @@ setuptools.setup(
     maintainer_email="genoml@googlegroups.com",
     description="GenoML is an automated machine learning tool that optimizes"
                 " basic machine learning pipelines for genomic data.",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    #long_description=long_description,
+    #long_description_content_type="text/markdown",
     url="https://genoml.github.io/",
     download_url="https://github.com/GenoML/genoml2/archive/v1.0.0-beta.11.tar.gz",
     entry_points={
