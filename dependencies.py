@@ -125,7 +125,7 @@ __DEPENDENCIES = {
         "Windows": {
             "binary": "plink.exe",
             "version_args": ["--version"],
-            "url": "https://s3.amazonaws.com/plink1-assets/plink_win64_20230116.zip"
+            "url": "https://s3.amazonaws.com/plink1-assets/plink_win32_20230116.zip"
         }
     },
 }
